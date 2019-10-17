@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "AirPractice Dev",
+    "slug": "airpractice-dev",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/UPicon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "bundleIdentifier": "com.theupstarters.airpractice-dev",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to upload project images.",
+        "NSContactsUsageDescription": "Used to add contacts to your account.",
+        "NSLocationAlwaysUsageDescription": "Used to localise the app for you.",
+        "NSLocationWhenInUseUsageDescription": "Used to localise the app for you.",
+        "NSPhotoLibraryUsageDescription": "Used to upload project images.",
+        "NSRemindersUsageDescription": "Used to remind you about project requirements."
+      },
+      "supportsTablet": true,
+      "publishBundlePath": "ios/airpractice-dev/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/airpractice-dev/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.theupstarters.airpractice_dev",
+      "versionCode": 0,
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "isDetached": false,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.12.4-sdk34.0.0-ee3e7450-9ec2-4836-8c8c-335483e62917.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.12.2-sdk34.0.0-767c7d3b-87b6-4f80-a9af-92ce67e2a49d.tar.gz"
+    },
+    "scheme": "exp429480b636c04d95810ee49ce477e5f2"
+  }
+}
